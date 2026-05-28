@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Elena Voss — Product Copywriter Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "html-minifier-terser": "^7.2.0",
+    "javascript-obfuscator": "^5.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
